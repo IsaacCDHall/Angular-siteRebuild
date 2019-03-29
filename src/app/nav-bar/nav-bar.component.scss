@@ -1,6 +1,7 @@
+@import "../../styles.scss";
 .navigationBar{
   background-color: whitesmoke;
-  border-bottom: 1px solid #dee5e8;
+  border-bottom: 1px solid $color-grey;
 }
 
 
@@ -10,7 +11,7 @@ nav{
   padding: 5px 5px;
   font-size: 13px;
   button{
-    padding: 5px 14px;
+    padding: 7px 14px;
     max-width: 270px;
     background-color: inherit;
     border: 0px;
