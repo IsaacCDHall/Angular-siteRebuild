@@ -21,6 +21,17 @@
       width: 500px;
       // height: 42px;
       padding: 13px 13px 13px 50px;
+      border-radius: 5px;
+      }
+      &::before{
+        background-image: url('../../assets/search.png');
+        background-size: 20px 20px;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 12px 20px;
+        content:"";
+        position: absolute;
+      }
     }
-  }
 }
