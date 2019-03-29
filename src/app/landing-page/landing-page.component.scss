@@ -1,0 +1,26 @@
+@import "../../styles.scss";
+
+.topLP{
+  display: flex;
+  max-width: 10vw;
+  // @include aspect-ratio(16, 9);
+  // background: linear-gradient(to bottom, #61bd4f, #428b34);
+  min-width: 100vw;
+  height: 56vh;
+  justify-content: center;
+  align-items: center;
+  img{
+    z-index: -1;
+    position: absolute;
+
+    // background-size: 110%;
+    max-width: 100%;
+  }
+  .searchBar{
+    input{
+      width: 500px;
+      // height: 42px;
+      padding: 13px 13px 13px 50px;
+    }
+  }
+}
