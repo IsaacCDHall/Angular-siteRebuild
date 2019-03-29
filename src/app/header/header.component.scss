@@ -1,4 +1,26 @@
 @import "../../styles.scss";
+
 .header{
+  color: #eee;
+  font-weight: lighter;
+  font-family: sans-serif;
+  font-size: .7rem;
   background-color: $color-blue;
+  display: flex;
+  flex-flow: row;
+  justify-content:space-around;
+  align-items: baseline;
+  padding: 10px 15px;
+
+  img{
+    max-width: 30%;
+  }
+  .listHeader{
+    list-style: none;
+    display: inline-flex;
+    li{
+      margin-left: 15px;
+      margin-bottom: 15px;
+    }
+  }
 }
