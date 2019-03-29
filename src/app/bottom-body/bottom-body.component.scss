@@ -1,0 +1,17 @@
+.box{
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-flow: column;
+  // float: right;
+  .content{
+    background-color: pink;
+    margin: auto;
+    width: 70vw;
+    text-align: center;
+    // width: 100%;
+    // height: 200px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-family: sans-serif;
+  }
+}
