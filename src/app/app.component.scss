@@ -1,0 +1,23 @@
+.navigationBar{
+  background-color: whitesmoke;
+  border-bottom: 1px solid #dee5e8;
+}
+
+
+nav{
+  display: flex;
+  flex-flow: row;
+  padding: 5px 5px;
+  font-size: 13px;
+  button{
+    padding: 5px 14px;
+    max-width: 270px;
+    background-color: inherit;
+    border: 0px;
+    &:hover{
+      border: 1px solid lightgray;
+      background-color:white;
+      border-radius: 2px;
+    }
+  }
+}
