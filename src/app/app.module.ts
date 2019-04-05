@@ -10,6 +10,8 @@ import { BottomBodyComponent } from './bottom-body/bottom-body.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ReferencePageComponent } from './reference-page/reference-page.component';
 import { DocsPageComponent } from './docs-page/docs-page.component';
+import { LogInComponent } from './log-in/log-in.component';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import { DocsPageComponent } from './docs-page/docs-page.component';
     BottomBodyComponent,
     NavBarComponent,
     ReferencePageComponent,
-    DocsPageComponent
+    DocsPageComponent,
+    LogInComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

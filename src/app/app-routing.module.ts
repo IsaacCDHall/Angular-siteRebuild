@@ -5,12 +5,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { LandingPageComponent }  from './landing-page/landing-page.component';
 import { DocsPageComponent }  from './docs-page/docs-page.component';
 import { ReferencePageComponent }  from './reference-page/reference-page.component';
+import { RegisterComponent }  from './register/register.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: LandingPageComponent },
   { path: 'docs', component: DocsPageComponent },
-  { path: 'reference', component: ReferencePageComponent }
+  { path: 'reference', component: ReferencePageComponent },
+  { path: 'register', component: RegisterComponent }
   // { path: 'detail/:id', component: HeroDetailComponent }
 ];
 
