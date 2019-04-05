@@ -10,10 +10,10 @@ export class RegisterComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    document.getElementByID('contactForm').addEventListener('submit', submitForm);
+    // document.getElementByID('contactForm').addEventListener('submit', submitForm);
   }
-  submitForm(e){
-    e.preventDefault();
-    console.log(123);
-  }
+  // submitForm(e){
+  //   e.preventDefault();
+  //   console.log(123);
+  // }
 }
