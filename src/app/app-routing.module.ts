@@ -7,6 +7,8 @@ import { DocsPageComponent }  from './docs-page/docs-page.component';
 import { ReferencePageComponent }  from './reference-page/reference-page.component';
 import { RegisterComponent }  from './register/register.component';
 import { LogInComponent }  from './log-in/log-in.component';
+import { PrivateComponent }  from './private/private.component';
+import { PublicComponent }  from './public/public.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -14,7 +16,9 @@ const routes: Routes = [
   { path: 'docs', component: DocsPageComponent },
   { path: 'reference', component: ReferencePageComponent },
   { path: 'register', component: RegisterComponent },
-  { path: 'log-in', component: LogInComponent }
+  { path: 'log-in', component: LogInComponent },
+  { path: 'private', component: PrivateComponent },
+  { path: 'public', component: PublicComponent }
   // { path: 'detail/:id', component: HeroDetailComponent }
 ];
 
