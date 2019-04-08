@@ -55,6 +55,8 @@ This website will be fully functional and act as a reflection of my competence u
 
  [First Audit](/src/assets/audit.html)
 
+ Currently unable to ng build --prod as apiKey is saved privately. 
+
 
 #### Code scaffolding
 
