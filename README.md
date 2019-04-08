@@ -5,6 +5,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 - - - - -
 
+## Live Demo
+* visit https://trello-3a320.firebaseapp.com
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -51,6 +54,8 @@ This website will be fully functional and act as a reflection of my competence u
  View current lighthouse audit performed:
 
  [First Audit](/src/assets/audit.html)
+
+ Currently unable to ng build --prod as apiKey is saved privately. 
 
 
 #### Code scaffolding
