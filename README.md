@@ -11,10 +11,18 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng serve --prod` for a production server for audit tests.
 
+### Installation
+* Using your terminal
+* Clone from https://github.com/IsaacCDHall/Angular-siteRebuild
+* Run `$ npm install` in directory of project
+* Run `$ ng serve`
+* Navigate to localhost given in terminal
 
 ## Features
 
-Functionality is not yet intact, only the core components for landing page have been created.
+Functionality is not yet fully intact, it currently consists of the rudimentary skeleton and some routing between pages.
+
+My next big step is to give logging in and out more useful functionality.
 
 
 This website will be fully functional and act as a reflection of my competence using Angular framework
@@ -25,17 +33,17 @@ This website will be fully functional and act as a reflection of my competence u
          - [x] A completed task
          - [ ] An uncompleted task
 
-         - [ ] More directives (practice with ngIf, ngFor, and more).
-         - [ ] Full CRUD functionality that changes your models.
-         - [ ] Firebase (a noSQL database) instead of a hard-coded dataset.
-         - [ ] Seed data for your database.
-         - [ ] Pipes for filtering data.
-         - [ ] A router for adding additional pages.
-         - [ ] Authentication and route guards.
-         - [ ] Deployment (as a dry run for next week).
-         - [ ] API calls.
-         - [x] CSS styling.
-         - [ ] Tests using Jasmine and Protractor.
+         - [x ] More directives (could still add ngFor, ngIf)
+         - [ ] Full CRUD functionality that changes your models
+         - [x] Firebase (a noSQL database) instead of a hard-coded dataset
+         - [ ] Seed data for your database
+         - [ ] Pipes for filtering data
+         - [x] A router for adding additional pages
+         - [ ] Authentication and route guards
+         - [x] Deployment
+         - [ ] API calls
+         - [x] CSS styling
+         - [x] Tests using Jasmine and Protractor
          - [x] Optimization
 
 ### Optimization

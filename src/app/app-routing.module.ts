@@ -3,10 +3,22 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { LandingPageComponent }  from './landing-page/landing-page.component';
+import { DocsPageComponent }  from './docs-page/docs-page.component';
+import { ReferencePageComponent }  from './reference-page/reference-page.component';
+import { RegisterComponent }  from './register/register.component';
+import { LogInComponent }  from './log-in/log-in.component';
+import { PrivateComponent }  from './private/private.component';
+import { PublicComponent }  from './public/public.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'home', component: LandingPageComponent }
+  { path: 'home', component: LandingPageComponent },
+  { path: 'docs', component: DocsPageComponent },
+  { path: 'reference', component: ReferencePageComponent },
+  { path: 'register', component: RegisterComponent },
+  { path: 'log-in', component: LogInComponent },
+  { path: 'private', component: PrivateComponent },
+  { path: 'public', component: PublicComponent }
   // { path: 'detail/:id', component: HeroDetailComponent }
 ];
 
